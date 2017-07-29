@@ -9,5 +9,5 @@ bigimg:
   - "/img/pic1.jpg" : "Santa Barbara, 2017"
 ---
 
-![alt text](img/dcullen2.jpg) | Daniel Cullen PhD Student 
+![alt text](img/dcullen2.jpg) | Daniel Cullen <br/> PhD Student 
 -------|--------
