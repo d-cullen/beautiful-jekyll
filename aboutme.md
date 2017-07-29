@@ -8,4 +8,4 @@ show-avatar: false
 ![Daniel Cullen](/img/dcullen.JPG)
 
 
-I am a PhD studen at the University of California Santa Barbara studying economics. 
+I am a PhD student at the University of California Santa Barbara studying economics. 
