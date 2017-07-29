@@ -11,7 +11,7 @@ bigimg:
 
 <div id="col">
 <p>
-![Daniel](/dcullen2.jpg)
+<img src= /dcullen2.jpg>
 <p>
 
 <p>
