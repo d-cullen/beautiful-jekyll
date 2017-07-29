@@ -10,7 +10,7 @@ bigimg:
 ---
 
 <div class="begin-examples"></div>
-![Daniel Cullen](/img/dcullen.JPG)
+<img src="/img/dcullen2.jpg" />
 
 ```
 code block 1
