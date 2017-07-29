@@ -17,8 +17,8 @@ bigimg:
         <p>PhD Student<br> 
         Department of Economics<br>  
         University of California, Santa Barbara
-        <br>
-        Contact<br> 
+        <br><br>
+        Contact:<br> 
         Office: North Hall 2049<br>
         Email: dcullen@umail.ucsb.edu</p> 
     </p>
