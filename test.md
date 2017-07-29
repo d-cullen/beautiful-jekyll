@@ -12,13 +12,13 @@ bigimg:
 <div class="begin-examples"></div>
 <img src="/img/dcullen2.jpg" />
 
-```
-code block 1
-```
+### Daniel Cullen
+PhD Student   
+Department of Economics  
+University of California, Santa Barbara
 
-More text explaining code block 2
+**Contact:**  
+Office: North Hall 2049  
+Email: dcullen@umail.ucsb.edu
 
-```
-code block 2
-```
 <div class="end-examples"></div>
