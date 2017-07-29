@@ -8,3 +8,6 @@ meta-description: "Phd Student at UC Santa Barbara"
 bigimg:
   - "/img/pic1.jpg" : "Santa Barbara, 2017"
 ---
+
+![Daniel Cullen](/img/dcullen2.jpg) | Daniel Cullen
+
