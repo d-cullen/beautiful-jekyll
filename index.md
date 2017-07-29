@@ -1,3 +1,4 @@
+---
 layout: page
 title: Daniel Cullen
 subtitle: Phd Student at UC Santa Barbara
