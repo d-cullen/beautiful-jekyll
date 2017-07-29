@@ -22,21 +22,27 @@
   }
 }
 
-.begin-examples ~ h3,
-.begin-examples ~ p,
-.begin-examples ~ .highlight {
+article .begin-examples ~ h2,
+article .begin-examples ~ h2 + p {
+    width: 100%;
+    clear: both;
+}
+
+article .begin-examples ~ h3,
+article .begin-examples ~ p,
+article .begin-examples ~ .highlight {
     width: 50%;
 }
 
-.begin-examples ~ h3,
-.begin-examples ~ p {
+article .begin-examples ~ h3,
+article .begin-examples ~ p {
     float: left;
     box-sizing: border-box;
     padding-right: 1rem;
     clear: both;
 }
 
-.begin-examples ~ .highlight {
+article .begin-examples ~ .highlight {
     float: right;
     clear: right;
     margin-bottom: 1rem;
