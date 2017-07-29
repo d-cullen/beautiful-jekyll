@@ -17,6 +17,7 @@ bigimg:
 <div class="left">
     <img src="/img/dcullen2.jpg" width="425"/>
 </div>
+
 <div class="right">
-    <p> test <\p>
+    <p> test </p>
 </div>
