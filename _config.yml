@@ -23,10 +23,10 @@ description:
 
 # List of links in the navigation bar 
 navbar-links:
-  Teaching: "teaching"
-    - ECON 140A: "140A"
-  Research: "research"
-  CV: "cv"
+  #Teaching: "teaching"
+  #  - ECON 140A: "140A"
+  #Research: "research"
+  #CV: "cv"
   About Me: "aboutme"
   
 # Image to show in the navigation bar - image must be a square (width = height)
