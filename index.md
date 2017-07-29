@@ -12,7 +12,7 @@ bigimg:
 
 <img src="/img/dcullen2.jpg" width="425"/>
 
-Daniel Cullen  
+### Daniel Cullen  
 PhD Student   
 Department of Economics  
 University of California, Santa Barbara
