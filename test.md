@@ -9,12 +9,10 @@ bigimg:
   - "/img/pic1.jpg" : "Santa Barbara, 2017"
 ---
 
-<div id="col">
 
-<img src= "img/dcullen2.jpg" >
-
-
-<p>
+<figure class="half">
+	<img src="img/dcullen2.jpg">
+	<p>
 Daniel Cullen
 PhD Student   
 Department of Economics  
@@ -24,5 +22,4 @@ Contact:
 Office: North Hall 2049  
 Email: dcullen@umail.ucsb.edu
 </p>
-</div>
-
+</figure>
