@@ -10,8 +10,8 @@ bigimg:
 
   <tr>
     <td><img src="/img/dcullen2.jpg" width="425"/></td>
-    <td>Daniel Cullen 
-     PhD Student 5 </td>
+    <td>Daniel Cullen <br> PhD Student <br> Department of Economics
+ </td>
   </tr>
 </table>
 
