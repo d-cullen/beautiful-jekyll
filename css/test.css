@@ -23,23 +23,6 @@
 }
 
 
-article .begin-examples ~ {
-    width: 50%;
-}
-
-article .begin-examples ~ {
+.callout {
     float: left;
-    box-sizing: border-box;
-    padding-right: 1rem;
-    clear: both;
-}
-
-article .begin-examples ~ {
-    float: right;
-    clear: right;
-    margin-bottom: 1rem;
-}
-
-.end-examples {
-    clear: both;
 }
