@@ -14,7 +14,7 @@ bigimg:
 <div class="right">
     <p>
         <h2>Daniel Cullen</h2> 
-        <h3>PhD Student</h3> 
+        PhD Student<br> 
         <h3>Department of Economics</h3>  
         <h3>University of California, Santa Barbara</h3>  
         <br>
