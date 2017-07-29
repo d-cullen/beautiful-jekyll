@@ -19,5 +19,11 @@ bigimg:
 </div>
 
 <div class="right">
-    <p> test </p>
+        <ul style="list-style-type:none">
+        <li>The columns are in the right order semantically</li>
+        <li>You don't have to float both columns</li>
+        <li>You don't get any odd wrapping behaviour</li>
+        <li>The columns are fluid to the available page...</li>
+        <li>They don't have to be fluid to the available page - but any container!</li>
+    </ul>
 </div>
