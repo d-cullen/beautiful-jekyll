@@ -10,9 +10,7 @@ bigimg:
 ---
 
 <div class="begin-examples"></div>
-## Section title
-This text, along with the title, remains in a single column
-### Main point about code block 1
+![Daniel Cullen](/img/dcullen.JPG)
 
 ```
 code block 1
