@@ -11,7 +11,7 @@ bigimg:
 
 <div id="col">
 
-<img src= "img/dcullen2.jpg" />
+<img src= "img/dcullen2.jpg" >
 
 
 <p>
