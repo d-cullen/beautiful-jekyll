@@ -1,8 +1,12 @@
 ---
+title: Daniel Cullen
+subtitle: PhD studen in economics
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+show-avatar: false
 ---
+
+![Daniel Cullen](/img/dcullen.jpg)
+
 
 My name is Inigo Montoya. I have the following qualities:
 
