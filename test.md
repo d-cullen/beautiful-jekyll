@@ -13,13 +13,13 @@ bigimg:
 
 <div class="right">
     <p>
-        <h2>Daniel Cullen</h2> 
-        <p>PhD Student</p> 
-        <h3>Department of Economics</h3>  
-        <h3>University of California, Santa Barbara</h3>  
+        <h3>Daniel Cullen</h3> 
+        <p>PhD Student<br> 
+        Department of Economics<br>  
+        University of California, Santa Barbara
         <br>
-        <h3>Contact</h3> 
-        <h3>Office: North Hall 2049</h3>  
-        <h3>Email: dcullen@umail.ucsb.edu</h3> 
+        Contact<br> 
+        Office: North Hall 2049<br>
+        Email: dcullen@umail.ucsb.edu</p> 
     </p>
 </div>
