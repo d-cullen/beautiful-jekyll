@@ -9,8 +9,8 @@ bigimg:
   - "/img/pic1.jpg" : "Santa Barbara, 2017"
 ---
 
-<div class="begin-examples"></div>
-<img src="/img/dcullen2.jpg" />
+
+![Daniel](/dcullen2.jpg){: .callout}
 
 
 ### Daniel Cullen
@@ -23,4 +23,4 @@ Office: North Hall 2049
 Email: dcullen@umail.ucsb.edu
 
 
-<div class="end-examples"></div>
+
