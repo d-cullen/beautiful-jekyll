@@ -23,7 +23,7 @@ description:
 
 # List of links in the navigation bar 
 navbar-links:
-  #Teaching: "teaching"
+  Teaching: "teaching"
   #  - ECON 140A: "140A"
   #Research: "research"
   #CV: "cv"
