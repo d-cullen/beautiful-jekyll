@@ -21,27 +21,3 @@
     font-size: 45px;
   }
 }
-
-.begin-examples ~ h3,
-.begin-examples ~ p,
-.begin-examples ~ .highlight {
-    width: 50%;
-}
-
-.begin-examples ~ h3,
-.begin-examples ~ p {
-    float: left;
-    box-sizing: border-box;
-    padding-right: 1rem;
-    clear: both;
-}
-
-.begin-examples ~ .highlight {
-    float: right;
-    clear: right;
-    margin-bottom: 1rem;
-}
-
-.end-examples {
-    clear: both;
-}
