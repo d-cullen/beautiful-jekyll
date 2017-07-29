@@ -12,17 +12,17 @@ bigimg:
 <div id="col">
 <p>
 <img src= /dcullen2.jpg>
-<p>
+</p>
 
 <p>
-### Daniel Cullen
+Daniel Cullen
 PhD Student   
 Department of Economics  
 University of California, Santa Barbara
 
-**Contact:**  
+Contact: 
 Office: North Hall 2049  
 Email: dcullen@umail.ucsb.edu
-<p>
+</p>
 </div>
 
