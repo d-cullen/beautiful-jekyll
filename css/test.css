@@ -22,14 +22,12 @@
   }
 }
 
-article .begin-examples ~ h3,
-article .begin-examples ~ p,
+
 article .begin-examples ~ {
     width: 50%;
 }
 
-article .begin-examples ~ h3,
-article .begin-examples ~ p {
+article .begin-examples ~ {
     float: left;
     box-sizing: border-box;
     padding-right: 1rem;
