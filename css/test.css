@@ -30,7 +30,7 @@ article .begin-examples ~ h2 + p {
 
 article .begin-examples ~ h3,
 article .begin-examples ~ p,
-article .begin-examples ~ .highlight {
+article .begin-examples ~ {
     width: 50%;
 }
 
@@ -42,7 +42,7 @@ article .begin-examples ~ p {
     clear: both;
 }
 
-article .begin-examples ~ .highlight {
+article .begin-examples ~ {
     float: right;
     clear: right;
     margin-bottom: 1rem;
