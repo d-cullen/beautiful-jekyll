@@ -21,3 +21,11 @@
     font-size: 45px;
   }
 }
+
+article .begin-examples ~ p{
+    width: 50%;
+}
+
+.end-examples {
+    clear: both;
+}
