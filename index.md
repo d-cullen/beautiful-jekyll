@@ -8,11 +8,11 @@ meta-description: "Phd Student at UC Santa Barbara"
 bigimg:
   - "/img/pic1.jpg" : "Santa Barbara, 2017"
 ---
-<div class="begin-examples"></div>
 
+<div class="begin-examples"></div>
 <img src="/img/dcullen2.jpg" width="425"/>
 
-### Daniel Cullen  
+### Daniel Cullen
 PhD Student   
 Department of Economics  
 University of California, Santa Barbara
