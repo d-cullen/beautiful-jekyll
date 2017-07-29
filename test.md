@@ -10,9 +10,9 @@ bigimg:
 ---
 
 <div id="col">
-<p>
+
 <img src= "img/dcullen2.jpg" />
-</p>
+
 
 <p>
 Daniel Cullen
