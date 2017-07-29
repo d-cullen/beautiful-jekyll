@@ -22,12 +22,6 @@
   }
 }
 
-article .begin-examples ~ h2,
-article .begin-examples ~ h2 + p {
-    width: 100%;
-    clear: both;
-}
-
 article .begin-examples ~ h3,
 article .begin-examples ~ p,
 article .begin-examples ~ {
