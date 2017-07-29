@@ -2,7 +2,7 @@
 layout: page
 title: Daniel Cullen
 subtitle: Phd Student at UC Santa Barbara
-css: "/css/test.css"
+css: "/css/test2.css"
 bigimg:
   - "/img/pic1.jpg" : "Santa Barbara, 2017"
 ---
