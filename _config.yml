@@ -24,7 +24,7 @@ description:
 # List of links in the navigation bar 
 navbar-links:
   Teaching: "teaching"
-    - ECON 140A: "teaching/140A.md"
+    - ECON 140A: "../teaching/140A.md"
   Research: "research"
   CV: "cv"
   About Me: "aboutme"
