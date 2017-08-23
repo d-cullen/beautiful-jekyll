@@ -23,8 +23,8 @@ description:
 
 # List of links in the navigation bar 
 navbar-links:
-  Teaching: "teaching"
-    - ECON 140A: "https://pages.github.com/"
+  Teaching: 
+    - ECON 140A: "../teaching/ECON140A"
   Research: "research"
   CV: "cv"
   About Me: "aboutme"
