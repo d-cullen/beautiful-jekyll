@@ -24,7 +24,7 @@ description:
 # List of links in the navigation bar 
 navbar-links:
   Teaching: "teaching"
-    - ECON 140A: "d-cullen.github.io/teaching/140A"
+    - ECON 140A: "https://pages.github.com/"
   Research: "research"
   CV: "cv"
   About Me: "aboutme"
