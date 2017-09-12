@@ -34,7 +34,7 @@ us.map <- us.map[!us.map$STATEFP %in% c("02", "15" ,"72", "66", "78", "60", "69"
 us.map <- us.map[!us.map$STATEFP %in% c("81", "84", "86", "87", "89", "71", "76",
                                         "95", "79"),]
 ```
-
+I use the `gCentroid` function in the `rgeos` package to find the centroid of every county in the shapefile.
 
 ```R
 # get the centroids and then convert them to a SpatialPointsDataFrame
@@ -45,6 +45,7 @@ county_centers <- SpatialPointsDataFrame(gCentroid(us.map, byid=TRUE),
 The `plot(county_center)` with a cross on the location of each county center.
 ![Map of county centers](/img/centers_plot.jpg){: .center-image }
 
+Using `gDistance` I calculate the distance between each centroid and each stadium in the data. Then I merge the team data onto the distance data so that each row gives the distance to each stadium.
 ```R
 # Create matrix of distances between each county center and each stadium
 # stadium in rows counties in columns
@@ -57,4 +58,22 @@ dist_matrix <- merge(dist_matrix, stadiums, by=0, all=TRUE)
 # Keep only distances and team names
 drops <- c('Row.names', 'Lat', 'Long',  'Color1', 'Color2')
 dist_matrix <- dist_matrix[ , !(names(dist_matrix) %in% drops)]
+```
+I create a function that finds the minimum distance in each column (county) and writes the team name to every cell in the column.
+```R
+closest_f <- function(df) {
+  i <- 1
+  n <- ncol(df)
+  while (i < n){
+    df$c.team <- df[which(df[,i] == min(df[,i])), which(colnames(df)=="Team")]
+    df[,i]    <- df$c.team
+    i <- i + 1
+  }
+  
+  # Drop Team and c.team columns
+  drops  <- c('Team', 'c.team')
+  df     <- df[ , !(names(df) %in% drops)]
+  return(df)
+  
+}
 ```
