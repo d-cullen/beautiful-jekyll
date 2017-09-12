@@ -41,7 +41,8 @@ county_centers <- SpatialPointsDataFrame(gCentroid(us.map, byid=TRUE),
                                          us.map@data, match.ID=FALSE)
 ```
 
-![Map of county centers](/img/centers_plot.jpg)
+The `plot(county_center)` with a cross on the location of each county center.
+![Map of county centers](/img/centers_plot.jpg){: .center-image }
 
 ```R
 # Create matrix of distances between each county center and each stadium
