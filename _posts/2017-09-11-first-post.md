@@ -39,11 +39,11 @@ us.map <- us.map[!us.map$STATEFP %in% c("81", "84", "86", "87", "89", "71", "76"
 # get the centroids and then convert them to a SpatialPointsDataFrame
 county_centers <- SpatialPointsDataFrame(gCentroid(us.map, byid=TRUE), 
                                          us.map@data, match.ID=FALSE)
-'''
+```
 
 ![Map of county centers](img/centers_plot.jpg)
 
-'''R
+```R
 # Create matrix of distances between each county center and each stadium
 # stadium in rows counties in columns
 dist_matrix <- gDistance(county_centers,sp.stadiums, byid=TRUE)
