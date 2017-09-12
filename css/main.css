@@ -80,6 +80,12 @@ img::-moz-selection {
   background: transparent;
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 img {
   max-width: 100%;
 }
