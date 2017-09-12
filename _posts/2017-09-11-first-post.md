@@ -11,7 +11,7 @@ I first created a spreadsheet of the location of each team's stadium and colors 
 
 First, I loaded the stadium and color data into `R` using `read.csv`. Then, I converted the latitude and longitude variables into spatial coordinates using the `sp` package.
 
-```
+```R
 #Load csv into dataframe containing stadium locations
 stadiums <- read.csv(data_path)
 
@@ -21,7 +21,7 @@ coordinates(sp.stadiums) <- ~Long+Lat
 ```
 I imported the county shapefile using `readOGR()`
 
-```
+```R
 # Read in us county shapefiles
 us.map  <- readOGR(dsn = shape_path, layer = "cb_2016_us_county_500k", stringsAsFactors = FALSE)
 
