@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a NFL map in R with Leaflet
-css: "/css/index.css"
+css: "/css/nfl.css"
 tags: [nfl, map, R, gis, leaflet]
 ---
 
