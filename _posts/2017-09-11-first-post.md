@@ -44,7 +44,6 @@ county_centers <- SpatialPointsDataFrame(gCentroid(us.map, byid=TRUE),
 
 The `plot(county_center)` with a cross on the location of each county center.
 ![Map of county centers](/img/centers_plot.jpg){: .center-image }
-
 Using `gDistance` I calculate the distance between each centroid and each stadium in the data. Then I merge the team data onto the distance data so that each row gives the distance to each stadium.
 ```R
 # Create matrix of distances between each county center and each stadium
@@ -77,3 +76,55 @@ closest_f <- function(df) {
   
 }
 ```
+After running the function on the distance matrix, I merge the data onto the spatial points data frame using apply with the min option (the min option shouldn't do anything because every entry in each column is the same). Then I merge the data back to the spatial polygons data frame. Now I have the closest stadium associated with every county in the contiguous United States. 
+
+```R
+closest <- closest_f(dist_matrix)
+
+# Add closest team name to county_centers @data
+county_centers@data$TEAM_0 <- apply(closest,2,min)
+
+# Merge team data back to shapefile
+us.map <- merge(us.map, county_centers, by.x="NAME", by.y="NAME")
+```
+
+
+```R
+## Create color palette 
+# Read CSV that contains first and second colors
+colors <- read.csv(data_path, stringsAsFactors = FALSE)
+# Keep only columns team and color1 and color2
+keep.c <- c('Color1', 'Team', 'Color2')
+colors <- colors[,(names(colors) %in% keep.c) ]
+
+# Sort colors alphabetically by team so colorfactor uses correct order
+colors <- colors[order(colors$Team),]
+
+c1 <- colors[["Color1"]]
+c2 <- colors[["Color2"]]
+t  <- colors[["Team"]]
+
+# Create two color palettes for factor variables
+c1pal <- colorFactor(c1, t)
+c2pal <- colorFactor(c2, t)
+
+
+################
+## Create popup
+county_popup <- paste0( us.map@data$NAME,"<br>", us.map@data$TEAM_0)
+
+
+## Create map of closest team to each county 
+# color and weight to change outline
+leaflet() %>%
+  addPolygons(data = us.map, weight = 1.5, color = ~c2pal(us.map@data$TEAM_0) , smoothFactor = 0.5, fillOpacity = 1,
+              fillColor = ~c1pal(us.map@data$TEAM_0), popup = county_popup) %>% 
+  addProviderTiles(providers$CartoDB.Positron)
+  11
+ ```
+ 
+ ```{r fig.height=2.5}
+m <- leaflet() %>% setView(lng = -71.0589, lat = 42.3601, zoom = 12)
+m %>% addTiles()
+```
+  
