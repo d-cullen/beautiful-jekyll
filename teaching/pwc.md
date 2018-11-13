@@ -7,6 +7,9 @@ title: PwC Programming Module
 
 ### Data
 [Apple](../pwc_stata/apple.xlsx)
+
 [Pokemon](../pwc_stata/pokemon.xlsx)
+
 [Tweets](../pwc_stata/tweets.xlsx)
+
 [Trump Tweets](../pwc_stata/trump tweets.xlsx)
