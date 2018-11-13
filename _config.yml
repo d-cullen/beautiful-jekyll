@@ -28,6 +28,7 @@ navbar-links:
     - ECON 140A: "../teaching/140A"
     - ECON 140B: "../teaching/140B"
     - DataHack 2018: "../teaching/datahack"
+    - PwC Programming Module: "../teaching/pwc"
   Research: "research"
   CV: "cv"
   About Me: "aboutme"
