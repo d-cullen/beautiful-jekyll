@@ -7,5 +7,4 @@ title: Teaching
 * [ECON 140A](teaching/140A.md) - Spring 2016, Summer 2016, Fall 2016, Winter 2017, Spring 2017, Summer 2017, Winter 2018, Spring 2018
 * [ECON 140B](teaching/140B.md) - Fall 2017
 * [DataHack 2018](teaching/datahack.md) - Summer 2018
-
 * [PwC Programming Module](teaching/pwc.md) - Fall 2018
