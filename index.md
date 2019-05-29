@@ -19,7 +19,7 @@ bigimg:
         University of California, Santa Barbara
         <br><br>
         Contact:<br> 
-        Office: North Hall 2049<br>
-        Email: dcullen@umail.ucsb.edu</p> 
+        Office: North Hall 1127A<br>
+        Email: dcullen@ucsb.edu</p> 
     </p>
 </div>
